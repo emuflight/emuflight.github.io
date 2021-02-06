@@ -22,7 +22,7 @@ title: Emuflight
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   EmuFlight provides the best flying experience by creating a healthy work environment for developers and pilots of racing and freestyle drones. PR's welcome!
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: 'https://emuflight.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: emuflight
 github_username: emuflight
@@ -61,7 +61,7 @@ logo: '/assets/artwork/emuflight-logo.png'
 # Aux links for the upper right navigation
 aux_links:
   'Emuflight on GitHub':
-    - '//https://github.com/emuflight'
+    - 'https://github.com/emuflight'
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
