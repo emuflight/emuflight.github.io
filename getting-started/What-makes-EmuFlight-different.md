@@ -39,9 +39,9 @@ EmuFlight is a fork of ButterFlight that has had many additions making it worthy
 * EmuBoost split into Pitch/Roll and Yaw (tune EmuBoost separately for yaw)
 
 **New in 0.3.X** (and some 0.2.XX dev versions)
-* [Smart_dTerm_Smoothing](https://github.com/emuflight/EmuFlight/wiki/smart-dTerm-smoothing) (Decreases d near small d values. The higher you run smart_dterm_smoothing the more it will attenuate low dTerm values and it will also start attenuating larger dterm values. It smooths dterm by comparing the average of the last two dTerm readings and shrinks dTerm more near small values. `50`=5% as seen in blackbox logs. Because of how this works it can essentially be used as a form of Dmin, removing the annoyance of dterm noise when the quad is hovering while still giving you access to the full dTerm effect to help during quick movements or propwash.)
-* [WitchCraft](https://github.com/emuflight/EmuFlight/wiki/WitchCraft) (Smooths dTerm over time; it may help remove bobble when D acts before P. It averages the last _`x`_ samples of DTerm.)
-* Full PID controller for [Angle and NFE-Racer modes](https://github.com/emuflight/EmuFlight/wiki/Angle-and-NFE-Racer-modes) very similar to the angle controller in silverware (Previously P-only) (Now, technically P&D, no I)
+* [Smart_dTerm_Smoothing](/features/Smart-dTerm-Smoothing.html) (Decreases d near small d values. The higher you run smart_dterm_smoothing the more it will attenuate low dTerm values and it will also start attenuating larger dterm values. It smooths dterm by comparing the average of the last two dTerm readings and shrinks dTerm more near small values. `50`=5% as seen in blackbox logs. Because of how this works it can essentially be used as a form of Dmin, removing the annoyance of dterm noise when the quad is hovering while still giving you access to the full dTerm effect to help during quick movements or propwash.)
+* [WitchCraft](/features/WitchCraft.html) (Smooths dTerm over time; it may help remove bobble when D acts before P. It averages the last _`x`_ samples of DTerm.)
+* Full PID controller for [Angle and NFE-Racer modes](/features/Angle-and-NFE-Racer-modes.html) very similar to the angle controller in silverware (Previously P-only) (Now, technically P&D, no I)
 * Removal of unnecessary Dynamic LPF's
 * SPA per axis
 * Gyro and dTerm LPF's per axis
@@ -55,12 +55,12 @@ EmuFlight is a fork of ButterFlight that has had many additions making it worthy
 * CRSF LQ display
 
 **0.3.3+**
-* [Mix Roll and Yaw](https://github.com/emuflight/EmuFlight/wiki/Angle-and-NFE-Racer-modes#mix-roll-and-yaw) (a.k.a Dual Axis Steering) 
+* [Mix Roll and Yaw](/features/Angle-and-NFE-Racer-modes.html#mix-roll-and-yaw) (a.k.a Dual Axis Steering) 
 * NFE on an aux-mode switch.
 * `set show_altered_rc = ON` in order to see what your RC looks like (in Configurator).
 * Make rateDynamics feel the same irregardless of RX rate
 * Immersion RC Ghost protocol
-* [VTX power on an aux-mode switch](https://github.com/emuflight/EmuFlight/wiki/VTX-Power-on-switch) (CLI only)
+* [VTX power on an aux-mode switch](/Faq%20and%20Issues.html#vtx-power-on-an-aux-mode-switch) (CLI only)
 * Ability to turn off Kalman prediction, but why would you want to? `set imuf_w = ` <= `2` to see why Kalman is better.
 * LQ widget style selection in OSD.
 * Added CRSF style `SCALE` for 170-300, and `SIMPLE` for 0-100 (a.k.a `100 for Days`)

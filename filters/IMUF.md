@@ -28,7 +28,7 @@ Think of Q as “Trust”. The more you “trust” the gyro measurement, the le
 ***@nerdCopter tip:***  Clean gyros and clean builds tend to use higher Q's, but noisy builds or bad gyros tend to need lower Q values.  Helio/Strix can use higher Q's out of the box just due to it's excellent filtering capability. E.g 6000±/7000±.
 
 ## Sharpness (0.3.X+)
-EmuFlight has also introduced Sharpness to reduce over-filtering.  Please see the [Sharpness](https://github.com/emuflight/EmuFlight/wiki/Sharpness) article as it has direct affect on Q.
+EmuFlight has also introduced Sharpness to reduce over-filtering.  Please see the [Sharpness](/filters/Sharpness.html) article as it has direct affect on Q.
 
 ## W
 W is the amount of gyro readings which the IMUF filter looks at to determine its filter. Lower W gives a sharper stick feel. Larger craft prefer a higher W value. Increasing W does not increase delay in the filter, instead it just increases the window of gyro readings from the past that the filter looks at to make its calculations. The default for a typical 5" quadcopter is 32. Generally, racers may prefer a lower W while freestylers may prefer a larger W. While a lower W may reduce smoothness, it may also assist in cutting through heavy winds -- consider using profiles for low-wind vs high-wind days.
@@ -42,4 +42,4 @@ W is the amount of gyro readings which the IMUF filter looks at to determine its
 ## Tuning Flowchart
 Use the following Flowchart for basic PID tuning.  Start by disabling Dynamic-Filter, TPA, Anti-Gravity, SPA, EmuBoost, Sharpness & for older versions, FeedForward while achieving a good tune.  Then re-enable or modify features as needed for further fine-tuning.
 
-![Tuning](https://github.com/emuflight/EmuFlight/wiki/images/EmuFlight-Tuning.jpg)
+![Tuning](/assets/images/EmuFlight-Tuning.jpg)

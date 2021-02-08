@@ -22,5 +22,5 @@ In EmuFlight the TPA works completely differently than in BetaFlight. TPA in Emu
 * TPA Breakpoint `1350`
 
 #### Example graphs of TPA application at throttle
-![Emu TPA first example](https://github.com/emuflight/EmuFlight/raw/master/docs/Screenshots/EMUF-TPA.png)
-![Emu TPA second example](https://github.com/emuflight/EmuFlight/raw/master/docs/assets/images/Emu_TPA_2.png)
+![Emu TPA first example](/assets/images/EMUF-TPA.png)
+![Emu TPA second example](/assets/images/Emu_TPA_2.png)

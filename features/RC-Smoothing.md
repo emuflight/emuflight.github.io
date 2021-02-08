@@ -33,6 +33,7 @@ set rc_smoothing_derivative_type = PT1
 Under 19mS gets rough. That's with [FrSky SBUS] D8. I think D16 same, not sure.
 
 
+
 ***
 
-Many online resources also recommend disabling the ADC Filter in OpenTX ![Disable ADC Filter](https://github.com/emuflight/EmuFlight/wiki/images/disable-ADC.png)
+Many online resources also recommend disabling the ADC Filter in OpenTX ![Disable ADC Filter](/assets/images/disable-ADC.png)

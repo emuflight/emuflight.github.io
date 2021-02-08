@@ -42,7 +42,7 @@ Default value: OFF
 - Two settings: `linear_thrust_low_output` for low motor output (low RPM) and `linear_thrust_high_output` for high motor output (high RPM). Use this tool to understand what you need to set (65/30 are good starting points for low and high output) https://www.desmos.com/calculator/ofaiocun0b
 - Both values need to be != 0 (not zero) for TL being applied.
 - `linear_throttle` gives you a linear throttle/thrust feeling. The hovering level will be lower (e.g. what before was 30% now could be 20%). This means that you need to be used to this before you can appreciate its advantages (more room on the upper part of the throttle)
-- [TPA](https://github.com/emuflight/EmuFlight/wiki/TPA) is automatically disabled when TL is enabled because it already solves high throttle issues.
+- [TPA](/features/TPA.html) is automatically disabled when TL is enabled because it already solves high throttle issues.
 
 
 ```

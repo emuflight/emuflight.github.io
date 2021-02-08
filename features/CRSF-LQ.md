@@ -108,7 +108,7 @@ set osd_lq_format = tbs and then type save
 * Also, it isn't necessary but I always set in the Failsafe tab the AUX 4 Line to "Set" 1000. If you leave it with the Hold flag you won't see the LQ to 0 if you shut down your transmitter
 * LQ will be displayed in DJI osd between 0 and 100. In my tests I never saw it dropping below 90 at 25mw power output, so I guess you should turn around and come back if you drop below 70-75
 
-Thank you @CesiumSalami for help and feedback of this wiki.
+Thank you @CesiumSalami for help and feedback of this Documentation.
 
 
 ***
@@ -116,5 +116,3 @@ Thank you @CesiumSalami for help and feedback of this wiki.
 * LQ Widget Styles: https://youtu.be/VrY6zT1yY-s
 * LQ, SNR, TX-Power, & RSSI dBm widget config via OSD: https://youtu.be/CVroHVWUAcQ
 * Same, plus LQ Style config via OSD [not released]: https://youtu.be/7p1SK9HZSWk
-
-

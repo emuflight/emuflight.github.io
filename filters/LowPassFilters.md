@@ -34,7 +34,7 @@ nav_order: 1
 * dTerm BiQuad may be more tolerant of high dTerm values and propeller damage.
 
 ### Should I use 1 or 2 dTerm LPF's?
-* Depends on your quad's physical characteristics or if you use [Matrix](https://github.com/emuflight/EmuFlight/wiki/Matrix) Filter.
+* Depends on your quad's physical characteristics or if you use [Matrix](/filters/Matrix.html) Filter.
 
 ### Notable Filtering resources:
  - https://oscarliang.com/betaflight-filtering/
@@ -44,10 +44,10 @@ nav_order: 1
 ***
 Although not precise, this image represents the basic idea of LPF tuning:
 
-![Basic LPF Theory](https://github.com/emuflight/EmuFlight/wiki/images/basic_theory.png)
+![Basic LPF Theory](/assets/images/basic_theory.png)
 
 ***
 
 This example shows motor dTerm motor noise at a very low Hz. A fair dTerm LPF cutoff could be 85hz. Possibly, any value 70-90 may work.  90 may offer best control and prop-wash handling at the cost of a little heat. If propellers get bent, then motors could potentially get too warm.  Lower of 70 may offer heat protection, but at the cost of poor prop-wash handling.  Tuning is always a cost/benefit analysis.  Here this low Hz is not typical, but only used as an example:
 
-![Low Hz Motor Noise Example](https://github.com/emuflight/EmuFlight/wiki/images/lowHz_motor_example.png)
+![Low Hz Motor Noise Example](/assets/images/lowHz_motor_example.png)

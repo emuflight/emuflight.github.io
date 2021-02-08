@@ -6,15 +6,13 @@ nav_order: 1
 ---
 
 # Angle-Mode and NFE-Racer Mode
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -22,7 +20,7 @@ nav_order: 1
 
 ONLY IN 0.3.0 AND LATER
 
-Angle mode in EmuFlight has taken a lot of influence from SilverWare angle code. As such EmuFlight has advanced angle mode features only found in EmuFlight and SilverWare.
+Angle mode in EmuFlight has taken a lot of influence from SilverWare angle code. As such EmuFlight has advanced angle mode features only found in EmuFlight and SilverWare. 
 
 ### Angle PIDs
 
@@ -38,7 +36,6 @@ NFE-Racer mode is equivalent of Angle-Mode on roll and Acro-Mode on pitch.
 You can enable NFE-Racer mode in the PIDs tab or type "set nfe_racermode = ON" in the CLI.
 
 Defaults:
-
 ```
 set nfe_racermode = OFF
 set p_angle_low = 100
@@ -50,19 +47,16 @@ set angle_expo = 10
 ```
 
 ### NFE on switch
-
 0.3.3 Adds NFE on an aux-mode switch rather than profile option.
 
 ### Mix Roll and Yaw
+0.3.3 Adds the ability to mix roll and yaw -- a.k.a "Dual Axis Steering".  Mix roll stick into yaw, or yaw stick into roll. This is something usually done on the radio, but our slightly different method vs the radio method seems to have benefit especially for crash recovery. It is really good for top angle whoop racing pilots.
 
-0.3.3 Adds the ability to mix roll and yaw -- a.k.a "Dual Axis Steering". Mix roll stick into yaw, or yaw stick into roll. This is something usually done on the radio, but our slightly different method vs the radio method seems to have benefit especially for crash recovery. It is really good for top angle whoop racing pilots.
-
-Independent but useful, also adds "roll pitch magnitude expo" which adds an expo to your roll and pitch when the magnitude of pitch and roll are greater than 1.0f. Then it applies extra expo to these sticks and reduces the max value of both pitch and roll.
+Independent but useful, also adds "roll pitch magnitude expo" which adds an expo to your roll and pitch when the magnitude of pitch and roll are greater than 1.0f. Then it applies extra expo to these sticks and reduces the max value of both pitch and roll. 
 
 \* full-release 0.3.3 fixes the naming scheme since there has been feedback and confusion on the pre-release.
 
 release 0.3.3:
-
 ```
 # get das
 das_yaw_with_roll_input = 0
@@ -75,7 +69,6 @@ Allowed range: 0 - 100
 ```
 
 pre-release 0.3.3:
-
 ```
 add_roll_in_yaw = 0
 rateprofile 0
@@ -87,7 +80,6 @@ Allowed range: 0 - 100
 ```
 
 both:
-
 ```
 roll_pitch_mag_expo = 0
 rateprofile 0

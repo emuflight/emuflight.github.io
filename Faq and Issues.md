@@ -173,7 +173,7 @@ v1 fonts are mostly fixed in EmuConfigurator 0.2.16 and above with some caveats.
 
 Feel free to use this Logo to build your own fonts.
 
-![EmuFlight-OSD.png](https://github.com/emuflight/EmuFlight/wiki/images/EmuFlight-OSD.png)
+![EmuFlight-OSD.png](/assets/images/EmuFlight-OSD.png)
 
 ***
 # GPS Lock Bypass
@@ -215,13 +215,13 @@ Note: this works with `git checkout [branch or commit]` also.
 # Artwork
 
 ## EmuFlight Artwork
-All artwork is original works by and courtesy of [@kumokraft](https://www.youtube.com/user/kumokraft/videos)
+All artwork is original works by and courtesy of  [@kumokraft](https://www.youtube.com/user/kumokraft/videos){: .btn .btn-blue }
 
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_YT-Header-01-01.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_YT-Header-01-01.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_YT-Backdrop-02.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_YT-Backdrop-02.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_YT-Backdrop-01.png)](./artwork/EMUFLIGHT-LOGO_YT-Backdrop-01.png#thumbnail)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-03_BlueLogoTransBack.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-03_BlueLogoTransBack.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-01_SolidBlue.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-05SolidWhiteCircleLogoTransBack.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-05SolidWhiteCircleLogoTransBack.png)
-[![](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-04_SolidBlueCircleLogoTransBack.png)](https://github.com/emuflight/EmuFlight/wiki/artwork/EMUFLIGHT-LOGO_-04_SolidBlueCircleLogoTransBack.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_YT-Header-01-01.png)](/assets/artwork/EMUFLIGHT-LOGO_YT-Header-01-01.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_YT-Backdrop-02.png)](/assets/artwork/EMUFLIGHT-LOGO_YT-Backdrop-02.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_YT-Backdrop-01.png)](./artwork/EMUFLIGHT-LOGO_YT-Backdrop-01.png#thumbnail)
+[![](/assets/artwork/EMUFLIGHT-LOGO_-03_BlueLogoTransBack.png)](/assets/artwork/EMUFLIGHT-LOGO_-03_BlueLogoTransBack.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)](/assets/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_-02_WhiteLogoTransBack.png)](/assets/artwork/EMUFLIGHT-LOGO_-01_SolidBlue.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_-05SolidWhiteCircleLogoTransBack.png)](/assets/artwork/EMUFLIGHT-LOGO_-05SolidWhiteCircleLogoTransBack.png)
+[![](/assets/artwork/EMUFLIGHT-LOGO_-04_SolidBlueCircleLogoTransBack.png)](/assets/artwork/EMUFLIGHT-LOGO_-04_SolidBlueCircleLogoTransBack.png)
