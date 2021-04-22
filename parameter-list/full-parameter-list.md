@@ -5,6 +5,10 @@ parent: Parameter List
 nav_order: 1
 ---
 
-# Why use EmuFlight?
+# Full Parameter List
 
-EmuFlight is a very easy to tune software that handles propwash, bent proops, and wind quite well. Its something worth trying for sure!
+| Parameter Name | Description | Min/Max | Default | Units |
+|----------------|-------------|---------|---------|-------|
+| k              | k           | k       | k       | k     |
+|                |             |         |         |       |
+|                |             |         |         |       |
