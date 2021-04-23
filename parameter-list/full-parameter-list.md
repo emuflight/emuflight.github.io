@@ -22,12 +22,37 @@ nav_order: 1
 | gyro_calib_duration | The amount of time used for gyro calibration. | 50-3000 | 125 | Seconds/100 |
 | gyro_calib_noise_limit | Noise level the gyro must be below during the gyro calibration | 0-200 | 48 |  |
 | gyro_offset_yaw | Meant to deal with yaw attitude drift. Only works when board are aligned normally and not exotically. The basic setup can be done on the bench without LiPo, USB powered power on, do not move the quad for 10 minutes for CW set a positive value equal to the drift, and negative for the CCW direction. | -1000-1000 | 0 |  |
+| imuf_roll_q | Trust value for the kalman filter on the roll axis. (need to finish this) | 0-16000 | 3200 |  |
+| imuf_pitch_q | Trust value for the kalman filter on the pitch axis. (need to finish this) | 0-16000 | 3200 |  |
+| imuf_yaw_q | Trust value for the kalman filter on the yaw axis. (need to finish this) | 0-16000 | 3200 |  |
+| imuf_w | Number of samples the kalman filter looks at for its prediction. Larger drones generally fly better with higher w values. | 0-300 | 32 |  |
+| gyro_overflow_detect |  | OFF, YAW, ALL | ALL |  |
+| yaw_spin_recovery |  | OFF, ON, AUTO | AUTO |  |
+| yaw_spin_threshold |  | 500-1950 | 1950 | deg/sec |
+| gyro_use_32khz |  | OFF, 16K, 32K | OFF |  |
+| gyro_to_use |  | FIRST, SECOND, BOTH | FIRST |  |
+| leaving space for dyn notch stuff |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| dyn_lpf_gyro_min_hz |  | 0-1000 | 115 | hz |
+| dyn_lpf_gyro_width |  | 0-255 | 0 | % |
+| dyn_lpf_gyro_curve_expo |  | 0-10 | 5 |  |
+| dyn_lpf_gain |  | 0-200 | 0 |  |
+| gyro_filter_debug_axis |  | ROLL, PITCH, YAW | ROLL |  |
+| smith_predict_str |  | 0-100 | 50 |  |
+| smith_predict_delay |  | 0-80 | 40 | ms/10 |
+| smith_predict_filt_hz |  | 0-10000 | 5 | Hz |
+| acc_hardware |  |  |  |  |
+| acc_high_range |  |  |  |  |
+| acc_lpf_hz |  | 0-400 |  | Hz |
+| acc_trim_pitch |  | -300-300 | 0 |  |
+| acc_trim_roll |  | -300-300 | 0 |  |
+| acc_calibration |  |  |  |  |
+| align_mag |  |  |  |  |
+| mag_align_roll |  | -3600-3600 | 0 | deg/10 |
+| mag_align_pitch |  | -3600-3600 | 0 | deg/10 |
+| mag_align_yaw |  | -3600-3600 | 0 | deg/10 |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
