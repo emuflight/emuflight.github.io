@@ -79,13 +79,110 @@ nav_order: 1
 | rc_interp |  |  |  |  |
 | rc_interp_ch |  |  |  |  |
 | rc_interp_int |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| rc_smoothing_type |  |  |  |  |
+| rc_smoothing_input_hz |  |  |  |  |
+| rc_smoothing_derivative_hz |  |  |  |  |
+| rc_smoothing_debug_axis |  |  |  |  |
+| rc_smoothing_input_type |  |  |  |  |
+| rc_smoothing_derivative_type |  |  |  |  |
+| rc_smoothing_auto_smoothness |  |  |  |  |
+| rc_predictor_percent |  |  |  |  |
+| rc_predictor_velocity_hz |  |  |  |  |
+| rc_predictor_time |  |  |  |  |
+| fpv_mix_degrees |  |  |  |  |
+| yaw_around_gravity |  |  |  |  |
+| max_aux_channels |  |  |  |  |
+| serialrx_provider |  |  |  |  |
+| serialrx_inverted |  |  |  |  |
+| spektrum_sat_bind |  |  |  |  |
+| spektrum_sat_bind_autoreset |  |  |  |  |
+| srxl2_unit_id |  |  |  |  |
+| srxl2_baud_fast |  |  |  |  |
+| sbus_baud_fast |  |  |  |  |
+| crsf_use_rx_snr |  |  |  |  |
+| airmode_start_throttle_percent |  |  |  |  |
+| rx_min_usec |  |  |  |  |
+| rx_max_usec |  |  |  |  |
+| serialrx_halfduplex |  |  |  |  |
+| msp_override_channels_mask |  |  |  |  |
+| rx_spi_protocol |  |  |  |  |
+| rx_spi_bus |  |  |  |  |
+| rx_spi_led_inversion |  |  |  |  |
+| show_altered_rc |  |  |  |  |
+| adc_device |  |  |  |  |
+| adc_vrefint_calibration |  |  |  |  |
+| adc_tempsensor_calibration30 |  |  |  |  |
+| adc_tempsensor_calibration110 |  |  |  |  |
+| input_filtering_mode |  |  |  |  |
+| blackbox_sample_rate |  |  |  |  |
+| blackbox_device |  |  |  |  |
+| blackbox_disable_pids |  |  |  |  |
+| blackbox_disable_rc |  |  |  |  |
+| blackbox_disable_setpoint |  |  |  |  |
+| blackbox_disable_bat |  |  |  |  |
+| blackbox_disable_mag |  |  |  |  |
+| blackbox_disable_alt |  |  |  |  |
+| blackbox_disable_rssi |  |  |  |  |
+| blackbox_disable_gyro |  |  |  |  |
+| blackbox_disable_acc |  |  |  |  |
+| blackbox_disable_debug |  |  |  |  |
+| blackbox_disable_motors |  |  |  |  |
+| blackbox_disable_gps |  |  |  |  |
+| blackbox_mode |  |  |  |  |
+| min_throttle |  |  |  |  |
+| max_throttle |  |  |  |  |
+| min_command |  |  |  |  |
+| dshot_idle_value |  |  |  |  |
+| dshot_burst |  |  |  |  |
+| dshot_bidir |  |  |  |  |
+| dshot_bitbang |  |  |  |  |
+| dshot_bitbang_timer |  |  |  |  |
+| use_unsynced_pwm |  |  |  |  |
+| motor_pwm_protocol |  |  |  |  |
+| motor_pwm_rate |  |  |  |  |
+| motor_pwm_inversion |  |  |  |  |
+| motor_poles |  |  |  |  |
+| motor_output_reordering |  |  |  |  |
+| thr_corr_value |  |  |  |  |
+| thr_corr_angle |  |  |  |  |
+| failsafe_delay |  |  |  |  |
+| failsafe_off_delay |  |  |  |  |
+| failsafe_throttle |  |  |  |  |
+| failsafe_switch_mode |  |  |  |  |
+| failsafe_throttle_low_delay |  |  |  |  |
+| failsafe_procedure |  |  |  |  |
+| failsafe_recovery_delay |  |  |  |  |
+| failsafe_stick_threshold |  |  |  |  |
+| align_board_roll |  |  |  |  |
+| align_board_pitch |  |  |  |  |
+| align_board_yaw |  |  |  |  |
+| gimbal_mode |  |  |  |  |
+| bat_capacity |  |  |  |  |
+| vbat_max_cell_voltage |  |  |  |  |
+| vbat_full_cell_voltage |  |  |  |  |
+| vbat_min_cell_voltage |  |  |  |  |
+| vbat_warning_cell_voltage |  |  |  |  |
+| vbat_hysteresis |  |  |  |  |
+| current_meter |  |  |  |  |
+| battery_meter |  |  |  |  |
+| vbat_detect_cell_voltage |  |  |  |  |
+| use_vbat_alerts |  |  |  |  |
+| use_cbat_alerts |  |  |  |  |
+| cbat_alert_percent |  |  |  |  |
+| vbat_cutoff_percent |  |  |  |  |
+| force_battery_cell_count |  |  |  |  |
+| vbat_display_lpf_period |  |  |  |  |
+| vbat_sag_lpf_period |  |  |  |  |
+| ibat_lpf_period |  |  |  |  |
+| vbat_duration_for_warning |  |  |  |  |
+| vbat_duration_for_critical |  |  |  |  |
+| vbat_scale |  |  |  |  |
+| vbat_divider |  |  |  |  |
+| vbat_multiplier |  |  |  |  |
+| ibata_scale |  |  |  |  |
+| ibata_offset |  |  |  |  |
+| ibatv_scale |  |  |  |  |
+| ibatv_offset |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
