@@ -1,13 +1,24 @@
 ---
 layout: default
-title: What makes EmuFlight different?
+title: What is EmuFlight?
 parent: Getting Started
-nav_order: 2
+nav_order: 1
 ---
 
-# What makes EmuFlight different?
+# What is EmuFlight?
 
-EmuFlight is a fork of ButterFlight that has had many additions making it worthy of attention. Most notably is the addition of the Helio IMUF filtering on all flight controllers. With EmuFlight being a fork of ButterFlight, EmuFlight is quite similar to betaflight 3.5 except with many improvements making the switch to EmuFlight very worthwhile.
+**Purpose of EmuFlight**
+
+EmuFlight is a fork of Betaflight with a focus on flight performance and ease of use. EmuFlight aims to better the drone racing and freestyle community in all aspects, including user support, documentation, software testing, and creating a healthy work environment for developers and pilots. EmuFlight differs from Betaflight in flight code, methodology and purpose. Hardware support and general setup between EmuFlight and Betaflight continues to be near identical. EmuFlight stays up to date with the latest Betaflight merging almost all code changes, the main differences being related to flight code. For ease of use EmuFlight uses the Nemesis configurator which is another deviation from Betaflight. Due to the small development team of EmuFlight we don't have the development resources that Betaflight does, and as a result we share most our code and will improve as Betaflight improves. At some point in the future EmuFlight may deviate from Betaflight to a larger extent.
+
+**Origins**
+
+HelioRC, was a company that made unique flight controllers for racing/freestyle drones. Eventually HelioRC went out of business and stopped supporting any of their products, however, as a final gift they made all of their code opensource. EmuFlight was inspired by the work which HelioRC had done and created a fork of the now defunct software Butterflight, which was another fork of Betaflight, in the summer of 2019. One of the first things that EmuFlight added to the code was to port over some of the code that HelioRC had made and to begin updating the code HelioRC had made for their products. Since then EmuFlight has seen many changes from the first release version 0.1.0, in September of 2019, to the last Butterflight based version 0.4.0, in the summer of 2021.
+
+Moving forward EmuFlight has decided to rebase the code and take what was learned in making EmuFlight and apply it to the latest version of Betaflight. This catches EmuFlight up with many hardware changes,  flight improvements, and quality of life updates that have occurred over the past 3 years as Butterflight was last up to date with Betaflight in the summer of 2018. Moving forward EmuFlight will stay up to date with the latest Betaflight code changes, while still maintaining what makes EmuFlight unique. This will ensure that development efforts on EmuFlight can be focused provide meaningful improvements while still providing users with much wanted features from Betaflight.
+
+
+# What makes EmuFlight different than Betaflight?
 
 **What features does EmuFlight have that Betaflight does not?**
 * Feathered PIDs (previously Buttered PIDs, calculating the dterm using measurement which is smoother)
@@ -55,7 +66,7 @@ EmuFlight is a fork of ButterFlight that has had many additions making it worthy
 * CRSF LQ display
 
 **0.3.3+**
-* [Mix Roll and Yaw](/features/Angle-and-NFE-Racer-modes.html#mix-roll-and-yaw) (a.k.a Dual Axis Steering) 
+* [Mix Roll and Yaw](/features/Angle-and-NFE-Racer-modes.html#mix-roll-and-yaw) (a.k.a Dual Axis Steering)
 * NFE on an aux-mode switch.
 * `set show_altered_rc = ON` in order to see what your RC looks like (in Configurator).
 * Make rateDynamics feel the same irregardless of RX rate
