@@ -26,6 +26,8 @@ EmuBoost is similar to FeedForward in that it changes your stick feel. One way t
 
 0.3.0+: Feed Forward was removed completely.
 
+1.0.0: Feed Forward returns. Boost Limit adjustment is built into the Emuboost value now.
+
 ### How does EmuBoost work?
 EmuBoost is a boost to the error used in calculating your pterm and iterm. This means that your moves will be more aggressive when running a high EmuBoost. Small craft like whoops are quite happy running an EmuBoost of almost 1000!
 
