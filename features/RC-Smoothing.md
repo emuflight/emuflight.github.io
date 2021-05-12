@@ -8,6 +8,10 @@ nav_order: 10
 # RC Smoothing
 
 RC Smoothing is a personal preference and may be specific to components used.  RC Smoothing is CPU intensive. Generally, BiQuad is smoother at cost of minor delay and PT1 faster at cost of minor less smoothness.
+Starting in 1.0.0, interpolation is depreciated, as is biquad and has been replaced with pt2. RC Prediction has been added and works with smoothing to reduce input delay.
+
+set rc_predictor = 100
+other rc predictor parameters, discuss tuning
 
 ***@3dracingman Tip:*** Racers should leave RC Smoothing defaults.  For freestylers, if not using BBL to analyze RC Command, then Interpolation is a good start.  I have spent many hours of testing and concluded the following personal preference:
 ```

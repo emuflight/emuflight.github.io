@@ -5,7 +5,7 @@ parent: Features
 nav_order: 5
 ---
 
-# Featherd PIDs
+# Feathered PIDs
 
 * Feathered PIDs changes how dTerm (kD) is calculated.
 * 0 is error-based dTerm and 100 is measurement based-dTerm.
