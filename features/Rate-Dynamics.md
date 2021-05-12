@@ -85,4 +85,8 @@ set rate_end_weight = 10
 ***
 @fichek Tip: one thing I instantly noticed is the bounceback when there is over 100% sensitivity on stick end and low weight and/or correction - so the recommended freestyle preset is a bit too springy imo...
 
-[@fichek's Rate Simulator](https://stoot.tech/emu-rate-dynamics.html){: .btn .btn-blue }
+[@fichek's Rate Simulator](https://stoot.tech/emu-rate-dynamics.html)
+
+@nerdCopter Tip: i only set rate_center_weight = 30 to smooth my center-stick which looks less jerky in HD.
+
+{: .btn .btn-blue }
