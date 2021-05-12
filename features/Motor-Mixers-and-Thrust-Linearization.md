@@ -60,7 +60,7 @@ Allowed values: OFF, ON
 Default value: OFF
 ```
 
-For more information, please see all notes, graphs and discussions in the Pull Request: https://github.com/emuflight/EmuFlight/pull/398
+For more information, please see all notes, graphs and discussions in the Pull Request: [https://github.com/emuflight/EmuFlight/pull/398](https://github.com/emuflight/EmuFlight/pull/398)
 
 Suggested starting values for Thrust Linearization: _\*When over-propping, lower these values some points. When under-propping, raise these values some points. Such will affect `linear_thrust_low_output` more.  Tune values as needed based on P-Term overshooting or too loose._
 
@@ -71,7 +71,21 @@ Suggested starting values for Thrust Linearization: _\*When over-propping, lower
 | Generic  | 1102 | 45 | 30 |
 | DongXingWei | 1103 8000kv | 40 | 25 |
 | Generic | 1105 | 75 | 35 |
-| iFlight Xing | 1202 8000kv | 75 | 35|
+| Amax | 1105 5800kv-GF2540 | 82 | 49 |
+| EMAX | 1106 6000kv-GF3035 | 85 | 10 |
+| T-motor F15 | 1106 6000kv HQ2525 | 90 | 45 |
+| Tachyon | 1108 5000kv GF3035 | 95 | 42 |
+| FPVCycle | 1202 6300kv HQ3x2 | 65 | 10 |
+| iFlightXing | 1202 8000kv | 75 | 35 |
+| iFlightXing | 1204 4500kv GF3025 | 92 | 56 |
+| iFlightXing | 1206 6500kv GF2540 |80 | 80 |
+| FPVCycle | 1303 5200kv HQ3x2 | 94 | 34 |
+| EMAX | 1306 4000kv GF3035 | 93 | 87 |
+| BetaFPV | 1404 3800kv GF3025 | 95 | 95 |
+| HypeTrainBRAT | 1407 4140kv HQ2525 | 95 | 75 |
+| BetaFPV | 1505 3600kv GF3025 | 95 | 95 |
+| BetaFPV | 1805 1550kv 6S | 95 | 76 |
+| BetaFPV | 2004 1700kv 6S | 69 | 90 |
 | ZoeFPV | 2010 | 60 | 25 |
 | Proton X | 2204 | 50 | 0 |
 | SunnySky | 2204 | 50 | 0 |
@@ -85,6 +99,7 @@ Suggested starting values for Thrust Linearization: _\*When over-propping, lower
 | FlashHobby Arthur | 2207.5 1900kv | 60 | 30 |
 | Pyrodrone Hyperlite | 2208.5 | 55 | 25 |
 | AmaxInno | 2305 | 63 | 25 |
+| NewBeeDrone Smoov | 2306 2400kv | 60 | 15 |
 | LeDrib | 2306 | 65 | 15 |
 | AmaxInno | 2306 | 65 | 40 |
 | iFlight Xing | 2306 | 75 | 30 |
@@ -96,4 +111,4 @@ Suggested starting values for Thrust Linearization: _\*When over-propping, lower
 | T-Motor F90 | 2806.5 | 70 | 60 |
 | Emax Eco II | 2807 | 75 | 95 |
 
-\* Credit to Ryan Harrel (MiniQuadBenchTest), Ethan Bayer (MicroMotorTest) for the thrust curve data from which these values were derived. Thanks to EmuTestBandits for value recommendations.
+\* Credit to Ryan Harrel (MiniQuadBenchTest), Ethan Bayer (MicroMotorTest) for the thrust curve data from which these values were derived. Thanks to DrSchnickistein and EmuTestBandits for value recommendations.

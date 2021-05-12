@@ -32,7 +32,14 @@ EmuFlight is the last opensource software to continue to support 32k. Because of
 
 DJI compatibility has NOT been focused on.
 
+#### Warning
 * ***DJI devices may bypass USB arming block, DO NOT attempt arming DJI component based quads while plugged into Configurator, especially with propellers mounted. Always Props-off! This is always how things should be done, but be warned that DJI will cause arming to be allowed in the Configurator! Use a smoke-stopper for added protection.***
+
+#### DJI Warnings in OSD
+* Some flight controllers do not work, but should be fixed in 0.4.0
+* How to setup: https://youtu.be/U1m_Wv-bN3o, Thanks to \@John Solo
+* Enable both Craft Name & Warnings in Configurator's OSD tab as well as enable DJI Warnings. (Expert-Mode or CLI).
+* Craft Name element must in visible area of OSD.
 
 | UI  | Note  |
 |---|---|
