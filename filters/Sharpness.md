@@ -5,7 +5,7 @@ parent: Filters
 nav_order: 3
 ---
 
-# Sharpness
+### Sharpness has been _**removed**_ in 0.4.0+
 
 In essence, increasing `sharpness` makes the filter more dynamic which will lead to less filtering. It reduces over-filtering.
 
@@ -33,7 +33,7 @@ Generally, you do not want high Q with high Sharpness -- i.e. Although good to n
 ```c
     filter->s = gyroConfig()->imuf_sharpness / 250.0f;  
 [...]
-  	float errorMultiplier = fabsf(target - kalmanState->x) * kalmanState->s;
+    float errorMultiplier = fabsf(target - kalmanState->x) * kalmanState->s;
 ```
 * However in 0.3.2+ and IMUF 250, sharpness is more complex, something like:
 

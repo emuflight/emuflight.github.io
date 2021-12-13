@@ -16,7 +16,7 @@ nav_order: 1
 
 ---
 
-### Angle-Mode and NFE-Racer Mode
+### Angle-Mode and NFE-Racer Mode (including DAS and Horizon-mode)
 
 ONLY IN 0.3.0 AND LATER
 
@@ -49,14 +49,14 @@ set angle_expo = 10
 ### NFE on switch
 0.3.3 Adds NFE on an aux-mode switch rather than profile option.
 
-### Mix Roll and Yaw
+### Mix Roll and Yaw (a.k.a. DAS)
 0.3.3 Adds the ability to mix roll and yaw -- a.k.a "Dual Axis Steering".  Mix roll stick into yaw, or yaw stick into roll. This is something usually done on the radio, but our slightly different method vs the radio method seems to have benefit especially for crash recovery. It is really good for top angle whoop racing pilots.
 
 Independent but useful, also adds "roll pitch magnitude expo" which adds an expo to your roll and pitch when the magnitude of pitch and roll are greater than 1.0f. Then it applies extra expo to these sticks and reduces the max value of both pitch and roll. 
 
 \* full-release 0.3.3 fixes the naming scheme since there has been feedback and confusion on the pre-release.
 
-release 0.3.3:
+0.3.3+:
 ```
 # get das
 das_yaw_with_roll_input = 0
@@ -67,21 +67,38 @@ das_roll_with_yaw_input = 0
 rateprofile 0
 Allowed range: 0 - 100
 ```
-
-pre-release 0.3.3:
-```
-add_roll_in_yaw = 0
-rateprofile 0
-Allowed range: 0 - 100
-
-add_yaw_in_roll = 0
-rateprofile 0
-Allowed range: 0 - 100
-```
-
-both:
 ```
 roll_pitch_mag_expo = 0
 rateprofile 0
 Allowed range: 0 - 250
+```
+
+### Horizon-mode 0.4.0+
+* Works differently than traditional horizon.
+* Possible to remain inverted until stick-input rotates to a certain degree.
+* defaults:
+```
+# get horiz
+horizon_transition = 5
+profile 0
+Allowed range: 0 - 200
+
+horizon_tilt_effect = 90
+profile 0
+Allowed range: 0 - 180
+
+horizon_strength = 65
+profile 0
+Allowed range: 0 - 200
+```
+
+### Horizon debug 0.4.0+
+* `set debug_mode = HORIZON`
+* debug traces, in order are: degrees inverted, inclination, horiz-level strength
+```
+    if (axis == FD_ROLL) {
+        DEBUG_SET(DEBUG_HORIZON, 0, lrintf(howUpsideDown() * 1000));
+        DEBUG_SET(DEBUG_HORIZON, 1, lrintf(currentInclination * 10));
+        DEBUG_SET(DEBUG_HORIZON, 2, lrintf(horizonLevelStrength * 1000));
+    }
 ```

@@ -36,7 +36,7 @@ set rc_smoothing_derivative_type = PT1
 ***@Ian444 Tip:*** [Interpolation] 19mS works too, I stayed at 21mS for a bit of margin.
 Under 19mS gets rough. That's with [FrSky SBUS] D8. I think D16 same, not sure.
 
-
+***@Mainbrain Tip:*** in CLI, with TX & RX powered on, type ` rc_smoothing_info` to view  rx-framerate.
 
 ***
 

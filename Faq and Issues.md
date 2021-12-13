@@ -103,6 +103,19 @@ DJI compatibility has NOT been focused on.
 
 Please see https://github.com/betaflight/betaflight/wiki/Pinio-and-PinioBox
 
+***Warning***
+* `resource PINIO 1 <pin>` must be performed FIRST, or the FC will lock-up.
+* e.g. :
+```
+resource SERIAL_TX 1 NONE
+resource PINIO 1 A09
+save
+```
+```
+set pinio_box = 40,41,42,43
+save
+```
+
 ***
 # VTX Power on switch
 
