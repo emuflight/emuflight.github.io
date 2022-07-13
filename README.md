@@ -51,12 +51,12 @@ To test your theme, run
 ```
 bundle exec jekyll serve
 ```
-Open your browser at:
+Open your browser to: http://localhost:4000 , As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-http://localhost:4000
-
- As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-
+Developers with write-access to the repo, should perferrm the following for live updates:
+```
+bundle update github-pages
+git add -u ; git commit ; git push
+```
 ---
 Official Jekyll setup page for: [Windows/MacOS/Ubuntu/Other Linux](https://jekyllrb.com/docs/installation/#requirements)
