@@ -43,6 +43,9 @@ mixer_yaw_throttle_comp = ON
 Allowed values: OFF, ON
 ```
 
+Select the Mixer Implementation here:  
+![Configurator-Thrust-Linear](/assets/images/Motor-Output-Mixer-Implementation.png)
+
 ### Thrust Linearization - Compensation for inherent non-linearity of thrust and rpm of motor output.
 - Two settings: `linear_thrust_low_output` for low motor output (low RPM) and `linear_thrust_high_output` for high motor output (high RPM). Use this tool to understand what you need to set (65/30 are good starting points for low and high output) https://www.desmos.com/calculator/ofaiocun0b
 - Both values need to be != 0 (not zero) for TL being applied.
@@ -66,6 +69,9 @@ Default value: OFF
 ```
 
 For more information, please see all notes, graphs and discussions in the Pull Request: https://github.com/emuflight/EmuFlight/pull/398
+
+To enable Thrust Linear, these three items must be set:  
+![Configurator-Thrust-Linear](/assets/images/Thrust-Linear.png)
 
 ### Suggested starting values for Thrust Linearization: 
 * When over-propping, lower these values some points. 

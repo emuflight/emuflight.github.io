@@ -94,3 +94,18 @@ PID oscillation from too low or too delayed filters:
 
 _**@QuickFlash Tip:**_ If your pids oscillate in harmonics, then likely your pid balance is wrong or your filters are set too low and adding too much delay. You can see how it starts small and grows over time. That's feedback from the system. That's why those oscillations don't go away. It feeds itself.
 
+### Filter Tuning Tips:
+_**@QuickFlash Tip:**_ [Starting from default filters] I just typically raise the Q on the dynamic notch and 
+then just raise the filters cutoffs until I'm happy. Then sometimes I add some ABG stuff in there and 
+that's about what I do with filters.
+
+_**@nerdCopter Tip:**_ Do not over-filter! My recommended options for 0.4 (choose one):
+* A) dynamic_filter (gyro) plus 1 dterm-LPF static PT2. (tune your cutoff and dynamic min/max.)
+* B) dynamic_filter (gyro) plus 1 dterm-LPF static PT1 plus dynamic-D. (tune your cutoff and dynamic min/max. 
+requires the least amount of fine-tuning.)
+* C) no dynamic_filter (off) plus 2 static dterm-LPF's. (tune your cutoffs. filter-type of your choice by 
+tuning. may require the most fine-tuning, but offers least delay. Optionally, D-term ABG works good with 
+static LPF's.)
+![](/assets/images/A.png)  
+![](/assets/images/B.png)  
+![](/assets/images/C.png)  

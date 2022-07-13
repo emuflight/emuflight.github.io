@@ -18,6 +18,8 @@ nav_order: 2
 
 ### IMUF Tuning
 
+### * 0.4.0+, Q = 6000 is the new default baseline. Many pilots running 9000+. Adjust the following content accordingly.
+
 ## Q
 Think of Q as “Trust”. The more you “trust” the gyro measurement, the less filtering will be applied. Q values are “elastic”. The defaults (3000) are now baseline values. This will predictably change based on conditions during flight. This results in a much more responsive and connected feel. This also reduces the potential for MTO, and other unwanted flight characteristics. In some instances MTO can be created from having a Q value which is to low. In those instances increases Q will help with MTO.
 
@@ -27,7 +29,7 @@ Think of Q as “Trust”. The more you “trust” the gyro measurement, the le
 
 ***@nerdCopter tip:***  Clean gyros and clean builds tend to use higher Q's, but noisy builds or bad gyros tend to need lower Q values.  Helio/Strix can use higher Q's out of the box just due to it's excellent filtering capability. E.g 6000±/7000±.
 
-## Sharpness (0.3.X+)
+## Sharpness (0.3.X) (removed from 0.4.0+)
 EmuFlight has also introduced Sharpness to reduce over-filtering.  Please see the [Sharpness](/filters/Sharpness.html) article as it has direct affect on Q.
 
 ## W
