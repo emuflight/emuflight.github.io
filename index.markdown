@@ -32,10 +32,16 @@ Releases can be found here: <span class="fs-2">[Firmware](https://github.com/emu
 
 To configure EmuFlight you should use the latest stable emuflight-configurator GUI tool (Windows/OSX/Linux) that can be found here: <span class="fs-2">[EmuConfigurator](https://github.com/emuflight/EmuConfigurator/releases){: .btn .btn-blue }</span>. EmuConfigurator also has a small [Wiki](https://github.com/emuflight/EmuConfigurator/wiki) of it's own.
 
-## [](#header-6)Other Tools
 
+## [](#header-6)3rd party Configuration Tools
+[RaceDroneSoft Android Apps](https://www.racedronesoft.com/#)  
+[SpeedyBee App](https://www.speedybee.com/speedy-bee-app/)  
+[BetaFlight CLI Android App](https://apkpure.com/betaflight-cli/org.betaflightcli)
+
+
+## [](#header-7)Other Tools
 Here is a few other tools that may help in the process of installing EmuFlight:
-
-Zadig - [https://zadig.akeo.ie/](https://zadig.akeo.ie/)
-
-ImpulseRc Driver Fixer - [ImpulseRC_Driver_Fixer.exe](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe)
+- ImpulseRc Driver Fixer - [ImpulseRC_Driver_Fixer.exe](https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe)  
+- STM32 drivers for Win7 and Earlier - [STM32 Virtual COM Port Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)  
+- USD to UART drivers for Win7 and Earlier - [CP210x USB to UART drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)  
+- Zadig for Win7 and Earlier - [Zadig USB driver installation made easy](https://zadig.akeo.ie/)  
