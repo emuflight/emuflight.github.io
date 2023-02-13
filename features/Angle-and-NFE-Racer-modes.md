@@ -76,7 +76,8 @@ Allowed range: 0 - 250
 ### Horizon-mode 0.4.0+
 * Works differently than traditional horizon.
 * Possible to remain inverted until stick-input rotates to a certain degree.
-* defaults:
+
+defaults:
 ```
 # get horiz
 horizon_transition = 5
