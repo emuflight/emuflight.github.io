@@ -35,6 +35,13 @@ The settings on Gyro:
 * `gyro_abg_boost` (OSD: GYRO ABG BOOST) Range 0-2000, default 275
 * `gyro_abg_half_life` (OSD: GYRO ABG HL) Range 0-10000, default 50
 
+From testing Alpha Beta Gamma filter should only be used in conjunction with a lowpass filter. Results of the lowpass Alpha Beta Gamma filter combo do show better results than just a lowpass filter on its own, and is thus still worth persuing. 
+
+ABG is more of a movement promotor than it is a filter. It can be used to track motion with near zero delay response, but doesn't require a simulated system model to do it. Blackbox logs show that the lower you set the Alpha value, the lower the noise floor but you get a stronger peak on movement band (as it promotes movement). It should be noted that any existing tuning oscillations typically are amplified under the alpha value.
+The lower the Alpha value, the more the output is filtered. Disable by setting Alpha value to 0.
+ABG boost will decrease ABG latency, but higher values may feel unnatural.
+ABG has memory and it decays based on abg halflife, where the value is in ms.
+
 AB (αβ) filter reading is very helpful as well: https://en.wikipedia.org/wiki/Alpha_beta_filter
 
 ### ABG settings accessible via expert-mode
